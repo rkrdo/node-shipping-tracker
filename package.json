@@ -1,0 +1,33 @@
+{
+  "name": "trackjs",
+  "description": "Track your packages",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Ricardo Cruz",
+    "email": "ricardocruz.a89@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/trackjs",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "keywords": []
+}

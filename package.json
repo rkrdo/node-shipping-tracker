@@ -34,5 +34,8 @@
   "preferGlobal": "true",
   "bin": {
     "trackjs": "lib/track.js"
+  },
+  "dependencies": {
+    "xmlbuilder": "~2.1.0"
   }
 }

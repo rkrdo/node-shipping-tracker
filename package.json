@@ -36,6 +36,7 @@
     "trackjs": "lib/shipping_tracker.js"
   },
   "dependencies": {
-    "xmlbuilder": "~2.1.0"
+    "xmlbuilder": "~2.1.0",
+    "xml2js": "~0.4.1"
   }
 }

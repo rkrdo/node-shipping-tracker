@@ -1,18 +1,18 @@
 {
-  "name": "trackjs",
-  "description": "Track your USPS/UPS packages",
+  "name": "node-shipping-tracker",
+  "description": "Track your USPS/UPS packages from the command line",
   "version": "0.1.0",
-  "homepage": "",
+  "homepage": "https://github.com/rkrdo/node-shipping-tracker",
   "author": {
     "name": "Ricardo Cruz",
     "email": "ricardocruz.a89@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "none"
+    "url": "git://github.com/rkrdo/node-shipping-tracker.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/rkrdo/node-shipping-tracker/issues"
   },
   "licenses": [
     {
@@ -20,7 +20,7 @@
       "url": "/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/track",
+  "main": "lib/shipping_tracker",
   "engines": {
     "node": ">= 0.8.0"
   },
@@ -30,7 +30,11 @@
     "grunt-mocha-test": "~0.8.2",
     "chai": "~1.8.1"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "usps",
+    "ups"
+  ],
   "preferGlobal": "true",
   "bin": {
     "trackjs": "lib/shipping_tracker.js"

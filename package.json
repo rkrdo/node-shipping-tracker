@@ -33,7 +33,7 @@
   "keywords": [],
   "preferGlobal": "true",
   "bin": {
-    "trackjs": "lib/track.js"
+    "trackjs": "lib/shipping_tracker.js"
   },
   "dependencies": {
     "xmlbuilder": "~2.1.0"

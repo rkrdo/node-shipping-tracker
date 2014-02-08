@@ -1,7 +1,7 @@
 {
   "name": "node-shipping-tracker",
   "description": "Track your USPS/UPS packages from the command line",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/rkrdo/node-shipping-tracker",
   "author": {
     "name": "Ricardo Cruz",
